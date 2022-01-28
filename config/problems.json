@@ -1,0 +1,32 @@
+{
+  "A": {
+    "time_limit": 1000,
+    "checker": "diff.cpp",
+    "score": [40, 60],
+    "pdf": true
+  },
+  "B": {
+    "time_limit": 1000,
+    "checker": "diff.cpp",
+    "score": [30, 70],
+    "pdf": true
+  },
+  "C": {
+    "time_limit": 2000,
+    "checker": "diff.cpp",
+    "score": [22, 33, 45],
+    "pdf": true
+  },
+  "D": {
+    "time_limit": 5000,
+    "checker": "diff.cpp",
+    "score": [16, 31, 37, 16],
+    "pdf": true
+  },
+  "E": {
+    "time_limit": 3000,
+    "checker": "E.cpp",
+    "score": [20, 40, 35, 5],
+    "pdf": true
+  }
+}

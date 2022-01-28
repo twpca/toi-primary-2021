@@ -1,0 +1,129 @@
+[[execs]]
+filename = "A.cpp"
+overwrite = { prob_id = "A" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "A_l7.cpp"
+overwrite = { prob_id = "A" }
+tests = [{ testcase = "1", expect = "AC" }, { testcase = "2", expect = "WA" }]
+
+[[execs]]
+filename = "B_nmlogn.cpp"
+overwrite = { prob_id = "B" }
+tests = [{ testcase = "1", expect = "AC" }, { testcase = "2", expect = "TLE" }]
+
+[[execs]]
+filename = "B_nnlog.cpp"
+overwrite = { prob_id = "B" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "B_wa1.cpp"
+overwrite = { prob_id = "B" }
+tests = [{ testcase = "1", expect = "RE" }, { testcase = "2", expect = "RE" }]
+
+[[execs]]
+filename = "B_wa2.cpp"
+overwrite = { prob_id = "B" }
+tests = [{ testcase = "1", expect = "RE" }, { testcase = "2", expect = "RE" }]
+
+[[execs]]
+filename = "B_wa3.cpp"
+overwrite = { prob_id = "B" }
+tests = [{ testcase = "1", expect = "RE" }, { testcase = "2", expect = "RE" }]
+
+[[execs]]
+filename = "B_wa4.cpp"
+overwrite = { prob_id = "B" }
+tests = [{ testcase = "1", expect = "WA" }, { testcase = "2", expect = "WA" }]
+
+[[execs]]
+filename = "C_bit.cpp"
+overwrite = { prob_id = "C" }
+tests = [{ testcase = "1", expect = "AC" }] # skip testcase 2,3
+
+[[execs]]
+filename = "C_n2.cpp"
+overwrite = { prob_id = "C" }
+tests = [
+  { testcase = "1", expect = "AC" },
+  { testcase = "2", expect = "AC" },
+  { testcase = "3", expect = "TLE" },
+]
+
+[[execs]]
+filename = "C_nlogn.cpp"
+overwrite = { prob_id = "C" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "D_double.cpp"
+overwrite = { prob_id = "C" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "D_double2.cpp"
+overwrite = { prob_id = "C" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "E_bitdp_pc.cpp"
+overwrite = { prob_id = "E" }
+tests = [
+  { testcase = "0", expect = "PC" },
+  { testcase = "1", expect = "PC" },
+  # skip testcase 2, 3
+
+]
+
+[[execs]]
+filename = "E_cf_potential_nm_mystery.cpp"
+overwrite = { prob_id = "E" }
+tests = [
+  { testcase = "all", expect = "AC" },
+]
+
+[[execs]]
+filename = "E_cf_potential_nm.cpp"
+overwrite = { prob_id = "E" }
+tests = [
+  { testcase = "0", expect = "AC" },
+  { testcase = "1", expect = "AC" },
+  { testcase = "2", expect = "AC" },
+  { testcase = "3", expect = "AC" },
+  # skip test 4 ??
+]
+
+[[execs]]
+filename = "E_cf_potential_nmlogm.cpp"
+overwrite = { prob_id = "E" }
+tests = [
+  { testcase = "0", expect = "AC" },
+  { testcase = "1", expect = "AC" },
+  { testcase = "2", expect = "AC" },
+  { testcase = "3", expect = "AC" },
+  { testcase = "4", expect = "TLE" },
+]
+
+[[execs]]
+filename = "E_costflowdq.cpp"
+overwrite = { prob_id = "E" }
+tests = [
+  { testcase = "0", expect = "AC" },
+  { testcase = "1", expect = "AC" },
+  { testcase = "2", expect = "AC" },
+  { testcase = "3", expect = "AC" },
+  { testcase = "4", expect = "TLE" },
+]
+
+[[execs]]
+filename = "E_costflowpq.cpp"
+overwrite = { prob_id = "E" }
+tests = [
+  { testcase = "0", expect = "AC" },
+  { testcase = "1", expect = "AC" },
+  { testcase = "2", expect = "AC" },
+  { testcase = "3", expect = "AC" },
+  { testcase = "4", expect = "TLE" },
+]

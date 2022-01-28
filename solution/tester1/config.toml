@@ -1,0 +1,24 @@
+[[execs]]
+filename = "C_BitIndexArray.cpp"
+overwrite = { prob_id = "C" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "C.cpp"
+overwrite = { prob_id = "C" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "C_nn.cpp"
+overwrite = { prob_id = "C" }
+tests = [{ testcase = "1", expect = "AC" }, { testcase = "2", expect = "AC" }, { testcase = "3", expect = "TLE" }]
+
+[[execs]]
+filename = "C_stack_nn.cpp"
+overwrite = { prob_id = "C" }
+tests = [{ testcase = "1", expect = "AC" }, { testcase = "2", expect = "AC" }, { testcase = "3", expect = "TLE" }]
+
+[[execs]]
+filename = "C_greedy_nn.cpp"
+overwrite = { prob_id = "C" }
+tests = [{ testcase = "1", expect = "AC" }, { testcase = "2", expect = "AC" }, { testcase = "3", expect = "TLE" }]

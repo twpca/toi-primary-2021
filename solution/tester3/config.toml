@@ -1,0 +1,120 @@
+[[execs]]
+filename = "A.cc"
+overwrite = { prob_id = "A" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "A_std_sort.cc"
+overwrite = { prob_id = "A" }
+tests = [{ testcase = "2", expect = "WA" }]
+
+[[execs]]
+filename = "B.cc"
+overwrite = { prob_id = "B" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "B_break.cc"
+overwrite = { prob_id = "B" }
+tests = [
+  { testcase = "1", expect = "WA" },
+  { testcase = "2", expect = "WA" },
+]
+
+[[execs]]
+filename = "C.cc"
+overwrite = { prob_id = "C" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "D.cc"
+overwrite = { prob_id = "D" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "D_1.cc"
+overwrite = { prob_id = "D" }
+tests = [
+  { testcase = "0", expect = "AC" },
+  { testcase = "1", expect = "AC" },
+]
+
+[[execs]]
+filename = "D_2.cc"
+overwrite = { prob_id = "D" }
+tests = [{ testcase = "2", expect = "AC" }]
+
+[[execs]]
+filename = "D_3.cc"
+overwrite = { prob_id = "D" }
+tests = [{ testcase = "3", expect = "AC" }]
+
+[[execs]]
+filename = "E.cc"
+overwrite = { prob_id = "E" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "E_01.cc"
+overwrite = { prob_id = "E" }
+tests = [
+  { testcase = "1", expect = "AC" },
+  { testcase = "2", expect = "AC" },
+]
+
+[[execs]]
+filename = "E_exp.cc"
+overwrite = { prob_id = "E" }
+tests = [{ testcase = "1", expect = "AC" }]
+
+[[execs]]
+filename = "E_flow_bf.cc"
+overwrite = { prob_id = "E" }
+tests = [
+  { testcase = "0", expect = "AC" },
+  { testcase = "1", expect = "AC" },
+  { testcase = "2", expect = "AC" },
+  { testcase = "3", expect = "AC" },
+  { testcase = "4", expect = "TLE" },
+]
+
+[[execs]]
+filename = "E_flow_dijkelgv.cc"
+overwrite = { prob_id = "E" }
+tests = [
+  { testcase = "0", expect = "AC" },
+  { testcase = "1", expect = "AC" },
+  { testcase = "2", expect = "AC" },
+  { testcase = "3", expect = "AC" },
+  { testcase = "4", expect = "TLE" },
+]
+
+[[execs]]
+filename = "E_flow_dijkv2.cc"
+overwrite = { prob_id = "E" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "E_flow_dyn_adjvec.c"
+tests = [{ testcase = "all", expect = "AC" }]
+[execs.overwrite]
+prob_id = "E"
+compile = "gcc -std=c99 -O2 E_flow_dyn_adjvec.c -o E_flow_dyn_adjvec"
+
+[[execs]]
+filename = "E_flow_prealloc_adjlist.c"
+tests = [{ testcase = "all", expect = "AC" }]
+[execs.overwrite]
+prob_id = "E"
+compile = "gcc -std=c99 -O2 E_flow_prealloc_adjlist.c -o E_flow_prealloc_adjlist"
+
+[[execs]]
+filename = "E_sunmoon_n4.cc"
+overwrite = { prob_id = "E" }
+tests = [
+  { testcase = "0", expect = "AC" },
+  { testcase = "1", expect = "AC" },
+  { testcase = "2", expect = "AC" },
+  { testcase = "3", expect = "AC" },
+  { testcase = "4", expect = "TLE" },
+]
